@@ -15,7 +15,7 @@ import Antd from 'ant-design-vue'
 import "ant-design-vue/dist/antd.css";
 
 Vue.config.productionTip = false
-Vue.use(Vuex, VueRouter, axios, VueAxios, Antd)
+Vue.use(VueRouter, Vuex, axios, VueAxios, Antd)
 
 new Vue({
   render: h => h(App),
